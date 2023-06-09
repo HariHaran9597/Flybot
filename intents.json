@@ -1,0 +1,175 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?"
+      ]
+    },
+    {
+      "tag": "fare_inquiry",
+      "patterns": [
+        "What are the ticket prices?",
+        "How much does a flight ticket cost?",
+        "Can you tell me about the fares?",
+        "I want to know the flight fares",
+        "Are there any discounts available?"
+      ],
+      "responses": [
+        "The ticket prices vary depending on the destination and travel dates. Could you please provide me with the details?"
+      ]
+    },
+    {
+      "tag": "flight_booking",
+      "patterns": [
+        "I would like to book a flight",
+        "How can I make a flight reservation?",
+        "Book a flight for me",
+        "I need to travel",
+        "Can you help me with flight booking?"
+      ],
+      "responses": [
+        "Sure, I can assist you with flight bookings. Could you please provide me with your travel details such as the destination, travel dates, and any specific preferences?"
+      ]
+    },
+    {
+      "tag": "flight_status",
+      "patterns": [
+        "Check flight status",
+        "Can you provide information on my flight?",
+        "Is my flight on time?",
+        "What is the status of my flight?"
+      ],
+      "responses": [
+        "To check your flight status, I'll need your flight number and the date of travel. Could you please provide me with these details?"
+      ]
+    },
+    {
+      "tag": "cancellation",
+      "patterns": [
+        "How can I cancel my flight?",
+        "I need to cancel my booking",
+        "What is the cancellation policy?",
+        "Can I get a refund for my ticket?"
+      ],
+      "responses": [
+        "To cancel your flight, please provide me with your booking details. The cancellation policy depends on the airline and fare type. I can help you with the process once I have the required information."
+      ]
+    },
+    {
+      "tag": "payment",
+      "patterns": [
+        "How can I pay for my ticket?",
+        "What are the available payment options?",
+        "Is online payment secure?",
+        "Can I pay in cash?"
+      ],
+      "responses": [
+        "We accept various payment methods, including credit cards, debit cards, and online banking. Our payment gateway is secure and encrypted to ensure the safety of your transactions."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks a lot",
+        "Appreciate it",
+        "Thank you for your help"
+      ],
+      "responses": [
+        "You're welcome! If you need any further assistance, feel free to ask."
+      ]
+    },
+    {
+      "tag": "provide_destination",
+      "patterns": [
+        "I want to travel to [destination]",
+        "Book a flight to [destination]",
+        "I'm planning to go to [destination]",
+        "Can you suggest some popular destinations?"
+      ],
+      "responses": [
+        "Great! Could you please provide me with the travel dates?"
+      ]
+    },
+    {
+      "tag": "provide_travel_dates",
+      "patterns": [
+        "I'll be traveling on [date]",
+        "My travel dates are [date] to [date]",
+        "I plan to travel on [date]",
+        "When is the best time to travel?"
+      ],
+      "responses": [
+        "Thank you for providing the travel dates. Let me find the available flights for you. Booking confirmed!"
+      ]
+    },
+    {
+      "tag": "booking_confirmation",
+      "patterns": [
+        "Confirm my booking",
+        "Is my flight booking confirmed?",
+        "Can you provide my booking details?",
+        "I want to confirm my flight reservation"
+      ],
+      "responses": [
+        "Congratulations! Your flight booking has been confirmed. Here are your booking details: [provide the booking details]"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "which is the best spiderman movie",
+        "tell me a joke"
+      ],
+      "responses": [
+        "across the spider verse",
+        "anirudh is a gay mallu"
+        ]
+    },
+    {
+      "tag": "what_can_you_do",
+      "patterns": [
+        "What can you do?",
+        "How can you assist me?",
+        "What are your capabilities?",
+        "Tell me about your functionalities"
+      ],
+      "responses": [
+        "I can assist you with flight bookings, provide information on ticket fares, check flight status, help with cancellations, answer payment-related queries, and more. Feel free to ask me any questions related to flight bookings and I'll do my best to help you!"
+      ]
+    },
+    {
+      "tag": "flight_recommendation",
+      "patterns": [
+        "Can you recommend a flight?",
+        "Which is the best flight option?",
+        "What are some popular flights?",
+        "I need flight suggestions"
+      ],
+      "responses": [
+        "Certainly! To recommend a flight, I'll need to know your travel destination, travel dates, and any specific preferences you may have, such as airlines or flight classes."
+      ]
+    },
+    {
+      "tag": "baggage_information",
+      "patterns": [
+        "What is the baggage allowance?",
+        "How much luggage can I carry?",
+        "Are there any restrictions on baggage?",
+        "Can I carry a cabin bag?"
+      ],
+      "responses": [
+        "The baggage allowance varies depending on the airline and the fare type. Generally, airlines allow both cabin baggage and checked baggage. However, specific restrictions may apply. Let me know which airline you're interested in, and I can provide you with the detailed baggage information."
+      ]
+    }
+  ]
+}
